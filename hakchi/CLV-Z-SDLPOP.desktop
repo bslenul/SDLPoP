@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/sh /var/games/CLV-Z-SDLPOP/prince.sh
+Path=/var/saves/CLV-Z-SDLPOP
+Name=Prince of Persia
+Icon=/var/games/CLV-Z-SDLPOP/CLV-Z-SDLPOP.png
+
+[X-CLOVER Game]
+Code=CLV-Z-SDLPOP
+TestID=0
+ID=0
+Players=1
+Simultaneous=0
+ReleaseDate=1989-10-03
+SaveCount=0
+SortRawTitle=prince of persia
+SortRawPublisher=brøderbund
