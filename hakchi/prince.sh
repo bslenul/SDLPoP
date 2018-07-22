@@ -6,6 +6,7 @@ cdir="$(dirname "$self")"
 code="$(basename "$cdir")"
 
 cd "$cdir/$name"
+[ -f "/var/saves/$code/save.sram" ] || touch "/var/saves/$code/save.sram"
 [ -f "/var/saves/$code/SDLPoP.ini" ] || cp "def-SDLPoP.ini" "/var/saves/$code/SDLPoP.ini"
 [ -f "SDLPoP.ini" ] || touch "SDLPoP.ini"
 mount -o bind "/var/saves/$code/SDLPoP.ini" "SDLPoP.ini"
